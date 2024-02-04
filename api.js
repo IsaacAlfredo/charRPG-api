@@ -7,6 +7,7 @@ import { createChar } from "./func.js";
 
 const require = createRequire(import.meta.url);
 const characters = require("./characters.json");
+var cors = require("cors");
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -15,6 +16,8 @@ const app = express();
 
 //middleware
 app.use(express.json());
+
+app.use(cors());
 
 app.listen("3000");
 
