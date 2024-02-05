@@ -1,1 +1,16 @@
-{ "characters": [] }
+{
+  "characters": [
+    {
+      "name": "João da Silva",
+      "age": "35",
+      "race": "Humano",
+      "class": "Guerreiro",
+      "strength": "18",
+      "dexterity": "14",
+      "constitution": "16",
+      "intelligence": "10",
+      "wisdom": "11",
+      "charisma": "12"
+    }
+  ]
+}
